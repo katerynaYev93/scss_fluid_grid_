@@ -1,11 +1,14 @@
 // grid variables
 $grid-columns: 12;
 $grid-max-width: 90%;
+$small: 320px;
+$large: 1024px;
 
 
 // breakpoints
-$breakpoint-small: "only screen and (max-width: 700px)";
-$breakpoint-medium: "only screen and (min-width: 700px)";
+$breakpoint-small: "only screen and (max-width: #{$small})";
+$breakpoint-medium: "only screen and (min-width: #{$small + 1})";
+$breakpoint-large: "only screen and (min-width: #{$large})";
 
 
 %clearfix {

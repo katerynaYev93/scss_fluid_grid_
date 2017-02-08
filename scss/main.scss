@@ -51,8 +51,7 @@ img {
   }
 }
 
-@media #{$breakpoint-small} {
-  .column-3 {
-    display: none;
-  }
-}
+/*Example
+.column-6 {
+  @include respond-to(handhelds) { display: none; }
+}*/
